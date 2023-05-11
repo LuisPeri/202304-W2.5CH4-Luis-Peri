@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: url(./web/html/images/social-proof/bg-pattern-bottom-mobile.svg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: [League Spartan];
+}
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+section {
+  display: flex;
+  color: #fabada;
+  padding: 8px;
+  background-color: #511f50;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  max-width: 90%;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+      font-size: 1rem;
+      align-content: end;
+    }
+
+    img {
+      max-width: 30%;
+      border-radius: 50%;
+      align-items: start;
+      align-content: start;
+    }
+
+    span {
+      color: bisque;
+    }
+  }
+
+  p {
+    font-size: 0, 7rem;
+    color: #be8ca5;
+  }
+}
